@@ -1,0 +1,26 @@
+GET http://localhost:8080/api/users
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+    "username": "jordy",
+    "email": "jordy@mail.com",
+    "password": "123456"
+}
+
+###
+
+PUT http://localhost:8080/api/users/99
+Content-Type: application/json
+
+{
+  "username": "deedleDoodle",
+  "email": "deedleDoodle@gmail.com"
+}
+
+###
+
+DELETE http://localhost:8080/api/users/2

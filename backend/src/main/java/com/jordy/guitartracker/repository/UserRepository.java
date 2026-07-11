@@ -1,0 +1,7 @@
+package com.jordy.guitartracker.repository;
+
+import com.jordy.guitartracker.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+}
